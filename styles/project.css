@@ -1,0 +1,219 @@
+@import url(./vendor/normalize.css);
+@import url(./page/page.css);
+@import url(./header/header.css);
+@import url(./logo/logo.css);
+@import url(./logo/_place/logo_place_header.css);
+@import url(./header/__link/header__link.css);
+@import url(./header/__main-illustration/header__main-illustration.css);
+@import url(./header/__square-pic/header__square-pic.css);
+@import url(./header/__subtitle/header__subtitle.css);
+@import url(./header/__title/header__title.css);
+@import url(./two-columns/__brief/two-columns__brief.css);
+@import url(./two-columns/__main-text/two-coumns__main-text.css);
+@import url(./two-columns/__paragraph/two-columns__paragraph.css);
+@import url(./two-columns/two-columns.css);
+@import url(./table/table.css);
+@import url(./table/_theme/table_theme_dark.css);
+@import url(./table/__cell/table__cell.css);
+@import url(./table/__cell/_theme/table__cell_theme_dark.css);
+@import url(./table/__heading/table__heading.css);
+@import url(./table/__text/table_text.css);
+@import url(./description/description.css);
+@import url(./digits/digits.css);
+@import url(./span-accent/span-accent.css);
+@import url(./section-title/section-title.css);
+@import url(./section-title/_theme/section-title_theme_dark.css);
+@import url(./section-subtitle/section-subtitle.css);
+@import url(./section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(./feynman/feynman.css);
+@import url(./feynman/__image/feynman__image.css);
+@import url(./feynman/__link/feynman__link.css);
+@import url(./feynman/__subtitle/feynman__subtitle.css);
+@import url(./feynman/__title/feynman_title.css);
+@import url(./kaufman/kaufman.css);
+@import url(./kaufman/__triangle/kaufman__triangle.css);
+@import url(./footer/footer.css);
+@import url(./footer/__author/footer__author.css);
+@import url(./footer/__column-heading/footer__coulmn-heading.css);
+@import url(./footer/__column-link/footer__column-link.css);
+@import url(./footer/__column-links/footer__column-links.css);
+@import url(./footer/__column/_content/footer__column_content_copyright.css);
+@import url(./footer/__columns/footer__columns.css);
+@import url(./footer/__social-icon/footer_social-icon.css);
+@import url(./link/link.css);
+@import url(./rotation/rotation.css);
+.techniques {
+  margin: 0 auto;
+  min-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.cards {
+  width: 920px;
+  height: 615px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+.cards__item {
+  margin-right: 100px;
+}
+
+.cards__item:last-of-type {
+  margin-right: 0;
+}
+
+.cards__image {
+  height: 160px;
+  width: 160px;
+  margin: 60px 40px 43px;
+  border-radius: 100%;
+}
+
+.cards__title {
+  text-align: center;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  text-align: center;
+  margin: 16px 0 60px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  height: 429px;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  margin: 50px auto 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+  border: none;
+  margin-right: 20px;
+}
+
+.video__iframe:last-of-type {
+  margin-right: 0;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto 0;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  max-width: 790px;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.khan__book-container{
+  display: flex;
+  flex-direction: row;
+  justify-items: baseline;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: left top;
+  margin-right: 48px;
+}
+
+.resources {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  object-fit: contain;
+}
+
+
