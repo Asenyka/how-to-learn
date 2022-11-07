@@ -1,0 +1,9 @@
+.cards {
+  width: 920px;
+  min-height: 615px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  overflow: hidden;
+  }
